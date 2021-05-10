@@ -1,0 +1,6 @@
+framework module Pods_WeekdaySearch {
+  umbrella header "Pods-WeekdaySearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

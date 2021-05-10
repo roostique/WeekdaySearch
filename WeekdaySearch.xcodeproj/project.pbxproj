@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116F0F27F63E89F83AB1DBD0 /* Pods_WeekdaySearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF51116DB20E68E71D29FEF0 /* Pods_WeekdaySearch.framework */; };
+		1204ABBF26352EAE004AC9F5 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1204ABBE26352EAE004AC9F5 /* UITextFieldExtension.swift */; };
 		126D95EF26340D970091DF1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126D95EE26340D970091DF1B /* AppDelegate.swift */; };
 		126D95F126340D970091DF1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126D95F026340D970091DF1B /* SceneDelegate.swift */; };
 		126D95F326340D970091DF1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126D95F226340D970091DF1B /* ViewController.swift */; };
 		126D95F626340D970091DF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126D95F426340D970091DF1B /* Main.storyboard */; };
 		126D95F826340D9B0091DF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126D95F726340D9B0091DF1B /* Assets.xcassets */; };
 		126D95FB26340D9B0091DF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126D95F926340D9B0091DF1B /* LaunchScreen.storyboard */; };
+		126D960A26343B570091DF1B /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126D960926343B570091DF1B /* Vibration.swift */; };
+		126D961326348F720091DF1B /* ConstraintsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126D961226348F720091DF1B /* ConstraintsExtension.swift */; };
+		126D963B2634A1C00091DF1B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126D963A2634A1C00091DF1B /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1204ABBE26352EAE004AC9F5 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		1204ABC8263554B9004AC9F5 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/Main.strings"; sourceTree = "<group>"; };
+		1204ABC9263554B9004AC9F5 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		126D95EB26340D970091DF1B /* WeekdaySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekdaySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126D95EE26340D970091DF1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		126D95F026340D970091DF1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,12 @@
 		126D95F726340D9B0091DF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126D95FA26340D9B0091DF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		126D95FC26340D9B0091DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126D960926343B570091DF1B /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		126D961226348F720091DF1B /* ConstraintsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsExtension.swift; sourceTree = "<group>"; };
+		126D963A2634A1C00091DF1B /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		4BBD4515B51B25709D63D5F1 /* Pods-WeekdaySearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeekdaySearch.release.xcconfig"; path = "Target Support Files/Pods-WeekdaySearch/Pods-WeekdaySearch.release.xcconfig"; sourceTree = "<group>"; };
+		53BD55A874221BBC548390F8 /* Pods-WeekdaySearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeekdaySearch.debug.xcconfig"; path = "Target Support Files/Pods-WeekdaySearch/Pods-WeekdaySearch.debug.xcconfig"; sourceTree = "<group>"; };
+		CF51116DB20E68E71D29FEF0 /* Pods_WeekdaySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeekdaySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116F0F27F63E89F83AB1DBD0 /* Pods_WeekdaySearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				126D95ED26340D970091DF1B /* WeekdaySearch */,
 				126D95EC26340D970091DF1B /* Products */,
+				F3614C81DF73F3BFD2F9AC4F /* Pods */,
+				F1B8AB51B4D738F6BFAFAC07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +73,7 @@
 		126D95ED26340D970091DF1B /* WeekdaySearch */ = {
 			isa = PBXGroup;
 			children = (
+				126D960826343B430091DF1B /* Utils */,
 				126D95EE26340D970091DF1B /* AppDelegate.swift */,
 				126D95F026340D970091DF1B /* SceneDelegate.swift */,
 				126D95F226340D970091DF1B /* ViewController.swift */,
@@ -67,6 +85,34 @@
 			path = WeekdaySearch;
 			sourceTree = "<group>";
 		};
+		126D960826343B430091DF1B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				126D960926343B570091DF1B /* Vibration.swift */,
+				126D961226348F720091DF1B /* ConstraintsExtension.swift */,
+				126D963A2634A1C00091DF1B /* UIButton.swift */,
+				1204ABBE26352EAE004AC9F5 /* UITextFieldExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F1B8AB51B4D738F6BFAFAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF51116DB20E68E71D29FEF0 /* Pods_WeekdaySearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3614C81DF73F3BFD2F9AC4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53BD55A874221BBC548390F8 /* Pods-WeekdaySearch.debug.xcconfig */,
+				4BBD4515B51B25709D63D5F1 /* Pods-WeekdaySearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 126D95FF26340D9B0091DF1B /* Build configuration list for PBXNativeTarget "WeekdaySearch" */;
 			buildPhases = (
+				135A7CC4D71581A3E5426216 /* [CP] Check Pods Manifest.lock */,
 				126D95E726340D970091DF1B /* Sources */,
 				126D95E826340D970091DF1B /* Frameworks */,
 				126D95E926340D970091DF1B /* Resources */,
+				560F3E82F09D5100CAE0D9DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -108,6 +156,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ru-RU",
 			);
 			mainGroup = 126D95E226340D970091DF1B;
 			productRefGroup = 126D95EC26340D970091DF1B /* Products */;
@@ -132,14 +181,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		135A7CC4D71581A3E5426216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeekdaySearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		560F3E82F09D5100CAE0D9DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeekdaySearch/Pods-WeekdaySearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeekdaySearch/Pods-WeekdaySearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeekdaySearch/Pods-WeekdaySearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		126D95E726340D970091DF1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126D960A26343B570091DF1B /* Vibration.swift in Sources */,
 				126D95F326340D970091DF1B /* ViewController.swift in Sources */,
+				1204ABBF26352EAE004AC9F5 /* UITextFieldExtension.swift in Sources */,
 				126D95EF26340D970091DF1B /* AppDelegate.swift in Sources */,
+				126D961326348F720091DF1B /* ConstraintsExtension.swift in Sources */,
 				126D95F126340D970091DF1B /* SceneDelegate.swift in Sources */,
+				126D963B2634A1C00091DF1B /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +245,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				126D95F526340D970091DF1B /* Base */,
+				1204ABC8263554B9004AC9F5 /* ru-RU */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -158,6 +254,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				126D95FA26340D9B0091DF1B /* Base */,
+				1204ABC9263554B9004AC9F5 /* ru-RU */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -216,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -271,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +382,7 @@
 		};
 		126D960026340D9B0091DF1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BD55A874221BBC548390F8 /* Pods-WeekdaySearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +402,7 @@
 		};
 		126D960126340D9B0091DF1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBD4515B51B25709D63D5F1 /* Pods-WeekdaySearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

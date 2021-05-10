@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "Жылы"; ObjectID = "3Tj-x6-8ha"; */
+"3Tj-x6-8ha.placeholder" = "Жылы";
+
+/* Class = "UILabel"; text = "Жылы"; ObjectID = "Usl-1L-DXw"; */
+"Usl-1L-DXw.text" = "Жылы";
+
+/* Class = "UIButton"; normalTitle = "Іздеу"; ObjectID = "WKD-lD-FYe"; */
+"WKD-lD-FYe.normalTitle" = "Іздеу";
+
+/* Class = "UILabel"; text = "Апта күні табу"; ObjectID = "aTi-6V-XNr"; */
+"aTi-6V-XNr.text" = "Апта күні табу";
+
+/* Class = "UITextField"; placeholder = "Күні"; ObjectID = "bjh-5d-wee"; */
+"bjh-5d-wee.placeholder" = "Күні";
+
+/* Class = "UITextField"; placeholder = "Айы"; ObjectID = "jJV-yQ-pba"; */
+"jJV-yQ-pba.placeholder" = "Айы";
+
+/* Class = "UILabel"; text = "Күні"; ObjectID = "jzD-6N-v57"; */
+"jzD-6N-v57.text" = "Күні";
+
+/* Class = "UILabel"; text = "Айы"; ObjectID = "s37-gi-iWt"; */
+"s37-gi-iWt.text" = "Айы";
+
+/* Class = "UISegmentedControl"; tNb-Uf-lHB.segmentTitles[0] = "KZ"; ObjectID = "tNb-Uf-lHB"; */
+"tNb-Uf-lHB.segmentTitles[0]" = "KZ";
+
+/* Class = "UISegmentedControl"; tNb-Uf-lHB.segmentTitles[1] = "RU"; ObjectID = "tNb-Uf-lHB"; */
+"tNb-Uf-lHB.segmentTitles[1]" = "RU";
